@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "net.anware.minecraft.mods.animod.feature.storage_commands.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	},
+	"mixins": [
+		"MixinIemScatter"
+	]
+}

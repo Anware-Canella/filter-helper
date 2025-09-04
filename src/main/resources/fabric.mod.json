@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "animod",
+	"version": "${version}",
+	"name": "Filter Helper",
+	"description": "Help with generating item lists for storage systems",
+	"authors": [
+		"Anware Canella"
+	],
+	"license": "All Rights Reserved",
+	"icon": "assets/filter_helper/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.anware.minecraft.mods.animod.Main"
+		],
+		"client": [
+			"net.anware.minecraft.mods.animod.Client"
+		]
+	},
+	"mixins": [
+		"filter_helper.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
