@@ -1,0 +1,25 @@
+{
+	"id": "filter_helper",
+	"version": "0",
+	"name": "Filter Helper",
+	"description": "storage system filter helper",
+	"license": "All Rights Reserved",
+	"authors": [
+		"Anware Canella"
+	],
+
+	"entrypoints": {
+		"main": [
+			"net.animod.filter_helper.Main"
+		]
+	},
+
+	"environment": "*",
+	"depends": {
+		"fabricloader": ">=0.14.19",
+		"fabric-api": "*",
+		"minecraft": "~1.19.4",
+		"java": ">=17"
+	},
+	"schemaVersion": 1
+}
